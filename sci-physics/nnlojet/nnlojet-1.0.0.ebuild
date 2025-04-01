@@ -24,7 +24,6 @@ DEPEND="
 "
 RDEPEND="${DEPEND}"
 
-
 src_configure() {
 	local mycmakeargs=(
 		-DLHAPDF_ROOT_DIR="${ESYSROOT}/usr"
@@ -32,5 +31,3 @@ src_configure() {
 	)
 	cmake_src_configure
 }
-
-
