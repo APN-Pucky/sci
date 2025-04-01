@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person" proxied="yes">
+		<email>alexander@neuwirth-informatik.de</email>
+		<name>Alexander Puck Neuwirth</name>
+	</maintainer>
+	<maintainer type="project" proxied="proxy">
+		<email>sci-physics@gentoo.org</email>
+		<name>Gentoo Physics Project</name>
+	</maintainer>
+
+	<longdescription lang="en">
+NNLOJET is a parton-level event generator for jet cross sections using the antenna subtraction method. It can be used to compute a large number of jet cross sections and related observables in e+e-, ep and pp collisions at next-to-next-to-leading order in QCD. NNLOJET contains routines for Monte Carlo phase-space integration, event handling and analysis.
+	</longdescription>
+</pkgmetadata>
