@@ -28,6 +28,7 @@ src_configure() {
 	local mycmakeargs=(
 		-DLHAPDF_ROOT_DIR="${ESYSROOT}/usr"
 		-DOPENMP=ON
+		-DDOKAN=OFF # tries to install a venv in /usr/dokan-venv
 	)
 	cmake_src_configure
 }
